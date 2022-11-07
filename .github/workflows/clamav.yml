@@ -1,9 +1,10 @@
+name: Git Anti Virus Scan
 on: [push]
 
 jobs:
-  gitavscan:
-    runs-on: ubuntu-latest
+  AntiVirusScan:
     name: History AV Scan
+    runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
       with:
